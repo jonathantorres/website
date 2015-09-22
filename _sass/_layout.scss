@@ -3,34 +3,6 @@
 }
 
 
-/**
- * Main navigation area
- */
-.navbar {
-    background: url(../img/nav_bg.jpg) #000 repeat;
-
-    .main-logo {
-        color: #ccc;
-        text-transform: uppercase;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 400;
-        font-size: 1.5em;
-
-        &:hover {
-            color: #ccc;
-        }
-    }
-
-    .navbar-nav a, .navbar-nav a:active, .navbar-nav a:visited {
-        color: #ccc;
-
-        &:hover {
-            color: #fff;
-            background-color: transparent;
-        }
-    }
-}
-
 
 /**
  * Writing area
@@ -58,6 +30,7 @@
 }
 
 
+
 /**
  * Projects area;
  */
@@ -72,6 +45,8 @@
     }
 }
 
+
+
 /**
  * Social area
  */
@@ -82,7 +57,13 @@
         width: 50px;
         margin-right: 30px;
     }
+
+    a:hover {
+        img { opacity: 0.9; }
+    }
 }
+
+
 
 /**
  * Footer area

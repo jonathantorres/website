@@ -1,0 +1,37 @@
+/**
+ * Main intro area
+ */
+.main-intro {
+    img {
+        border: solid 2px #999;
+        margin: auto;
+        width: 150px;
+
+        @include desktop {
+            width: 205px;
+            margin: 0;
+        }
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+
+        @include tablet {
+            font-size: 3em;
+        }
+
+        @include desktop {
+            font-size: 4em;
+            text-align: left;
+        }
+    }
+
+    .lead {
+        text-align: center;
+
+        @include desktop {
+            text-align: left;
+        }
+    }
+}

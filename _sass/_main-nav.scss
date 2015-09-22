@@ -1,0 +1,33 @@
+/**
+ * Main navigation area
+ */
+.navbar {
+    background: url(../img/nav_bg.jpg) #000 repeat;
+
+    .main-logo {
+        color: #ccc;
+        text-transform: uppercase;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+
+        &:hover {
+            color: #ccc;
+        }
+    }
+
+    .navbar-nav a, .navbar-nav a:active, .navbar-nav a:visited {
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        color: #ccc;
+
+        &:hover {
+            color: #fff;
+            background-color: transparent;
+        }
+    }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}

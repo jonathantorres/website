@@ -28,25 +28,46 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+/**
+ * Media queries
+ */
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$phone-width: 767px;
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-// @mixin media-query($device) {
-//     @media screen and (max-width: $device) {
-//         @content;
-//     }
-// }
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+/**
+ * Media query usage:
+ *
+    p {
+      font-size: 16px;
+
+      @include tablet {
+        font-size: 18px;
+      }
+
+      @include desktop {
+        font-size: 20px;
+      }
+    }
+ */
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "base";
+@import "layout";
+@import "main-nav";
+@import "main-intro";
+@import "syntax-highlighting";
