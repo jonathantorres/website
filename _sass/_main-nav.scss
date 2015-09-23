@@ -22,7 +22,13 @@
         margin: 0px -15px;
 
         li {
+            @include desktop {
+                margin-right: 30px;
+            }
+
             &:hover {
+                @include transition(color 1s);
+
                 .marker {
                     @include desktop {
                         display: block;
@@ -70,10 +76,15 @@
 }
 
 .nav > li > a {
+    text-align: right;
     padding: 10px 15px 10px 0px;
 
     @include desktop {
         padding: 8px 0px 1px 0px;
+    }
+
+    @include tablet {
+        padding: 10px 20px 10px 0px;
     }
 }
 
