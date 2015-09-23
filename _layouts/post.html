@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-<div class="row blog-post">
+<div class="row blog-post-header">
     <div class="col-md-12">
-        <h1>{{ page.title }}</h1>
-        <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+        <img class="media-object img-circle mee" src="../../../../img/mee.jpg" alt="...">
+        <h1 class="text-center">{{ page.title }}</h1>
+        <small class="text-center">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} - {{ page.author }}{% endif %}{% if page.meta %} - {{ page.meta }}{% endif %}</small>
     </div>
 </div>
 
@@ -14,4 +15,23 @@ layout: default
     <div class="col-md-12">
         {{ content }}
     </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        // Required: on line below, replace text in quotes with your forum shortname
+        var disqus_shortname = 'Jonathan Torres';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
