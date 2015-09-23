@@ -3,6 +3,8 @@
  */
 .navbar {
     background: url(../img/nav_bg.jpg) #000 repeat;
+    min-height: 40px;
+    border: none;
 
     .main-logo {
         color: #ccc;
@@ -13,6 +15,41 @@
 
         &:hover {
             color: #ccc;
+        }
+    }
+
+    .navbar-nav {
+        margin: 0px -15px;
+
+        li {
+            &:hover {
+                .marker {
+                    @include desktop {
+                        display: block;
+                    }
+
+                    .prog {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .marker {
+                height: 3px;
+                background: #303030;
+                display: none;
+
+                @include desktop {
+                    display: block;
+                }
+
+                .prog {
+                    width: 15%;
+                    height: inherit;
+                    background: #ff0000;
+                    @include transition(width .3s);
+                }
+            }
         }
     }
 
@@ -30,4 +67,25 @@
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #ccc;
+}
+
+.nav > li > a {
+    padding: 10px 15px 10px 0px;
+
+    @include desktop {
+        padding: 8px 0px 1px 0px;
+    }
+}
+
+.navbar-brand {
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.navbar-toggle {
+    padding: 4px 5px;
+
+    .icon-bar {
+        width: 20px;
+    }
 }
