@@ -9,21 +9,33 @@
 
         @include desktop {
             width: 205px;
-            margin: 0;
+            margin-top: 30px;
         }
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 2.6em;
         text-align: center;
+
+        .red {
+            display: block;
+        }
 
         @include tablet {
             font-size: 3em;
+
+            .red {
+                display: inline;
+            }
         }
 
         @include desktop {
             font-size: 4em;
             text-align: left;
+
+            .red {
+                display: inline;
+            }
         }
     }
 
