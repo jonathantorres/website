@@ -9,6 +9,8 @@
     }
 
     h1 {
+        font-weight: normal;
+
         @include desktop {
             font-size: 3.2em;
         }
@@ -21,7 +23,7 @@
 
 .blog-post {
     p {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0 0 40px;
     }
 
