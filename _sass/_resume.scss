@@ -6,6 +6,10 @@
         font-size: 18px;
     }
 
+    ul {
+        margin-top: 10px;
+    }
+
     li {
         margin-bottom: 10px;
 
@@ -29,11 +33,6 @@
         @include tablet {
             font-size: 18px;
         }
-    }
-
-    .spaced {
-        display: block;
-        margin-bottom: 10px;
     }
 }
 
