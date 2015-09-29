@@ -20,30 +20,12 @@ title: Jonathan Torres | Web Developer
     <div class="col-md-6 writing">
         <h1>Writing</h1>
         <ul class="list-unstyled posts-list">
-            <li>
-                <a href="#"><h3>Why I wrote construct?</h3></a>
-                <small>September 26, 2015</small>
-            </li>
-            <li>
-                <a href="#"><h3>Waterfall moment: Testing my code</h3></a>
-                <small>September 26, 2015</small>
-            </li>
-            <li>
-                <a href="#"><h3>Relaxing when shit hits the ceiling fan</h3></a>
-                <small>September 26, 2015</small>
-            </li>
-            <li>
-                <a href="#"><h3>Why I built construct?</h3></a>
-                <small>September 26, 2015</small>
-            </li>
-            <li>
-                <a href="#"><h3>Waterfall moment: Testing my code</h3></a>
-                <small>September 26, 2015</small>
-            </li>
-            <li>
-                <a href="#"><h3>Relaxing when shit hits the ceiling fan</h3></a>
-                <small>September 26, 2015</small>
-            </li>
+            {% for post in site.posts limit:5 %}
+                <li>
+                    <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                    <small>{{ post.date | date: '%B %d, %Y' }}</small>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 
