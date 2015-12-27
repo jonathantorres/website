@@ -1,5 +1,5 @@
 # Personal website
-Source code for my personal website. Lives here [http://www.jonathantorres.com](http://www.jonathantorres.com) using [jekyll](jekyllrb.com) and GitHub [pages](https://pages.github.com/).
+Source code for my personal website. Lives here [http://www.jonathantorres.com](http://www.jonathantorres.com) using [jekyll](http://jekyllrb.com) and GitHub [pages](https://pages.github.com/).
 
 ## Installation
 Clone the project
