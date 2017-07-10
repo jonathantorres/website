@@ -33,3 +33,9 @@ If you're using laravel valet, just compile your assets with `gulp` and valet sh
 ```bash
 gulp
 ```
+
+## Deploying to production
+To compile your assets to the production environment just run jigsaw with the environment flag. And serve the compiled `build_production` folder to your web server.
+```bash
+jigsaw build production
+```
