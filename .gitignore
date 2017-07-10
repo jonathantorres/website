@@ -1,5 +1,5 @@
-_site
-.sass-cache
+/build_local/
+/node_modules/
+/vendor/
 *.sublime-project
 *.sublime-workspace
-.vagrant
