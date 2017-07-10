@@ -6,5 +6,8 @@
     "laravel-elixir": "^6.0.0-15",
     "laravel-elixir-browsersync-official": "^1.0.0",
     "yargs": "^4.6.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
   }
 }
