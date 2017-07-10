@@ -1,5 +1,8 @@
 /build_local/
+/build_production/
 /node_modules/
 /vendor/
+/source/css/
+/source/js/
 *.sublime-project
 *.sublime-workspace
