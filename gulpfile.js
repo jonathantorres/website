@@ -17,6 +17,7 @@ elixir(function(mix) {
             server: { baseDir: 'build_' + env },
             proxy: null,
             files: [ 'build_' + env + '/**/*' ]
-        });
+        })
+        .browserify('scripts.js');
 });
 
