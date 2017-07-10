@@ -1,0 +1,41 @@
+/**
+ * Resume page styles
+ */
+.resume {
+    .main-lead {
+        font-size: 18px;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    li {
+        margin-bottom: 10px;
+
+        @include desktop {
+            margin-bottom: 0px;
+        }
+    }
+
+    .work {
+        font-weight: bold;
+    }
+
+    .skills-lead {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+        @include desktop {
+            font-size: 19px;
+        }
+
+        @include tablet {
+            font-size: 18px;
+        }
+    }
+}
+
+.position {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,48 @@
+/**
+ * Header of blog post
+ */
+.blog-post-header {
+    small {
+        display: block;
+        color: #999;
+        font-style: italic;
+    }
+
+    h1 {
+        font-weight: normal;
+
+        @include desktop {
+            font-size: 3.2em;
+        }
+    }
+
+    .share {
+        margin-top: 15px;
+    }
+}
+
+.blog-post {
+    p, ul {
+        font-size: 22px;
+        margin: 0 0 40px;
+        line-height: 1.6;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        padding: 4px;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+
+        @include desktop {
+            width: auto;
+        }
+
+        @include tablet {
+            width: auto;
+        }
+    }
+}
