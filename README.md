@@ -4,7 +4,7 @@ Source code for my personal website. Lives here [http://www.jonathantorres.com](
 ## Installation
 Clone the project
 ```bash
-git clone https://github.com/jonathantorres/jonathantorres.github.io jonathantorres
+git clone https://github.com/jonathantorres/jonathantorres.com jonathantorres
 ```
 
 If you haven't, make sure you install Jigsaw globally with composer. Make sure that `~/.composer/vendor/bin` is in your `$PATH`.
