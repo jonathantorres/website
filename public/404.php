@@ -11,13 +11,13 @@
         <title>Jonathan Torres | Web Developer</title>
     </head>
     <body>
-        @include('_partials.nav')
+        <?php require_once('partials/nav.php'); ?>
 
         <div class="container">
-            @yield('body')
-            @include('_partials.footer')
+            <p class="text-center">I'm sorry. I couldn't find what you were looking for. <br>Go back to the <a href="http://www.jonathantorres.com">home page</a>. I'm sure you'll find something more interesting there ;)</p>
+            <?php require_once('partials/footer.php'); ?>
         </div>
 
-        @include('_partials.scripts')
+        <?php require_once('partials/scripts.php'); ?>
     </body>
 </html>

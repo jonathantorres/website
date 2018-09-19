@@ -17,9 +17,7 @@
     <div class="col-xs-4 hidden-xs">
     </div>
 </div>
-
 <hr>
-
 <div class="row footer">
     <div class="col-md-12">
         <p class="text-center">Copyrights © 2017 | Jonathan Torres</p>
