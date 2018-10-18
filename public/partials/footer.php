@@ -20,6 +20,6 @@
 <hr>
 <div class="row footer">
     <div class="col-md-12">
-        <p class="text-center">Copyrights © 2017 | Jonathan Torres</p>
+        <p class="text-center">Copyrights © <?php echo date('Y'); ?> | Jonathan Torres</p>
     </div>
 </div>
