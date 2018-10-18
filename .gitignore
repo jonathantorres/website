@@ -1,4 +1,4 @@
 /node_modules/
-/css/main.css
+/public/css/main.css
 *.sublime-project
 *.sublime-workspace
