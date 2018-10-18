@@ -6,6 +6,6 @@
     "node-sass": "^4.9.3"
   },
   "scripts": {
-    "sass": "node_modules/node-sass/bin/node-sass sass/main.scss > public/css/test.css"
+    "sass": "node_modules/node-sass/bin/node-sass sass/main.scss > public/css/main.css"
   }
 }
