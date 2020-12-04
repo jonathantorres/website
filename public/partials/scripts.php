@@ -8,4 +8,5 @@
     ga('send', 'pageview');
 </script>
 
-<script src="/js/scripts.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
