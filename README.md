@@ -4,7 +4,7 @@ Source code for my personal website. Lives here [http://www.jonathantorres.com](
 ## Installation
 Clone the project
 ```bash
-git clone https://github.com/jonathantorres/jonathantorres.com jonathantorres
+git clone https://github.com/jonathantorres/website
 ```
 
 Install npm dependencies
@@ -14,15 +14,5 @@ npm install
 
 Compile SASS
 ```bash
-
+npm run sass
 ```
-
-Compile JS
-```bash
-```
-
-## Development Environment
-TODO
-
-## Deploying to production
-TODO
