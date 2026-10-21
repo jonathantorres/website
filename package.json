@@ -1,10 +1,22 @@
 {
+  "name": "website",
   "private": true,
-  "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "node-sass": "^4.9.3"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "sass": "node_modules/node-sass/bin/node-sass sass/main.scss > public/css/main.css --output-style compressed"
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vue-tsc": "^3.3.13"
   }
 }
