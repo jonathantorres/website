@@ -8,12 +8,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand main-logo" href="/">Jonathan <span class="red">Torres</span></a>
+      <router-link class="navbar-brand main-logo" to="/">Jonathan <span class="red">Torres</span></router-link>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
         <li>
-          <a href="/resume">Resume</a>
+          <router-link to="/resume">Resume</router-link>
           <div class="marker">
             <div class="prog"></div>
           </div>
